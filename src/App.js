@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 import Hero from "./components/Hero";
 import Header from "./components/Header";
 import NavMobile from "./components/NavMobile";
+import Stats from "./components/Stats";
 
 // import aos
 import Aos from "aos";
@@ -32,6 +33,7 @@ const App = () => {
         >
           <NavMobile setNavMobile={setNavMobile} />
         </div>
+        <Stats />
       </div>
     </Router>
   );
